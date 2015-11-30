@@ -1,1 +1,0 @@
-An app that provides Java knowledge review as well as test
