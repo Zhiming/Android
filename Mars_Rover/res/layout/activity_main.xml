@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <ac.nz.untiec.model.LogicModel
+        android:id="@+id/logicModel"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/buttonGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/restart"
+            android:onClick="reset"/>
+        
+        <Button
+            android:id="@+id/btnLeft"
+            android:tag="@string/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/white"
+            android:text="@string/left"/>
+        
+        <Button
+            android:id="@+id/btnUp"
+            android:tag="@string/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/white"
+            android:text="@string/up"/>
+        
+        <Button
+            android:id="@+id/btnRight"
+            android:tag="@string/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/white"
+            android:text="@string/right"/>
+        
+    </RelativeLayout>
+
+</FrameLayout>

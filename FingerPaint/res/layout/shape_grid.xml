@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="#FFFFFF">
+    
+    <TextView 
+        android:text="@string/shapes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+    
+    <ImageView
+        android:id="@+id/trangle"
+	    android:layout_width="80dp"
+	    android:layout_height="80dp"
+	    android:layout_gravity="center"
+	    android:contentDescription="@string/trangle"
+	    android:src="@drawable/trangle" 
+	    android:scaleType="center"
+	    android:background="#FFFFFFFF"
+	    android:layout_marginTop="5dp"
+	    android:onClick="shapeClicked"
+	    android:tag="@string/trangle"/>
+    
+    
+    <ImageView
+        android:id="@+id/circle"
+	    android:layout_width="80dp"
+	    android:layout_height="80dp"
+	    android:layout_gravity="center"
+	    android:contentDescription="@string/circle"
+	    android:src="@drawable/circle" 
+	    android:scaleType="center"
+	    android:background="#FFFFFFFF"
+	    android:layout_marginTop="5dp"
+	    android:onClick="shapeClicked"
+	    android:tag="@string/circle"/>
+
+    <ImageView
+        android:id="@+id/square"
+	    android:layout_width="80dp"
+	    android:layout_height="80dp"
+	    android:layout_marginTop="7dp"
+	    android:layout_gravity="center"
+	    android:contentDescription="@string/square"
+	    android:src="@drawable/square" 
+	    android:scaleType="center"
+	    android:background="#FFFFFFFF"
+	    android:onClick="shapeClicked"
+	    android:tag="@string/square"/>
+    
+</LinearLayout>

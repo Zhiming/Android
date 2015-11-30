@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:orientation="vertical"
+    android:rowCount="6" >
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FFFF0000"
+        android:contentDescription="red"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FFFF0000"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFF00"
+        android:contentDescription="yellow"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FFFFFF00"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FF008000"
+        android:contentDescription="green"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FF008000"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FF0000FF"
+        android:contentDescription="blue" 
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FF0000FF"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FFEE82EE"
+        android:contentDescription="violet" 
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FFEE82EE"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FF800080"
+        android:contentDescription="purple" 
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FF800080"/>
+
+    
+     <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FF00FF7F"
+        android:contentDescription="springgreen"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FF00FF7F"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FFADFF2F"
+        android:contentDescription="greenyellow"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FFADFF2F"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FF800000"
+        android:contentDescription="maroon"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FF800000"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FFB0E0E6"
+        android:contentDescription="powderblue" 
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FFB0E0E6"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FFCD853F"
+        android:contentDescription="peru" 
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FFCD853F"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#FFFF4500"
+        android:contentDescription="orangered" 
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="paintClicked"
+        android:tag="#FFFF4500"/>
+    
+</GridLayout>

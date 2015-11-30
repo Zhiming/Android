@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="horizontal"
+    tools:context="ac.nz.unitec.fingerpaint.MainActivity" >
+
+    <!-- color -->
+
+    <include
+        android:id="@+id/color_grid"
+        layout="@layout/color_grid" />
+
+    <!-- Shape -->
+
+    <include
+        android:id="@+id/shape_area"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/color_grid"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        layout="@layout/shape_grid" />
+
+    <!-- Drawing -->
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/color_grid"
+        layout="@layout/drawing" />
+    
+    <!-- Buttons -->
+
+    <include
+        android:id="@+id/button_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toEndOf="@id/shape_area"
+        layout="@layout/button_area" />
+
+</RelativeLayout>

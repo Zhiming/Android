@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:textSize="12sp"
+        android:layout_marginStart="20dp"/>
+
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Reset"
+        android:textSize="13sp" 
+        android:layout_marginStart="10dp"/>
+
+    <Button
+        android:id="@+id/exit_btn"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Exit"
+        android:textSize="13sp" 
+        android:layout_marginStart="10dp"/>
+
+</LinearLayout>
